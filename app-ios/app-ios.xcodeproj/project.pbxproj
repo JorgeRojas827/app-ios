@@ -15,7 +15,7 @@
 		4841CC232707B5EE0031687F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4841CC212707B5EE0031687F /* Main.storyboard */; };
 		4841CC252707B5F10031687F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4841CC242707B5F10031687F /* Assets.xcassets */; };
 		4841CC282707B5F10031687F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4841CC262707B5F10031687F /* LaunchScreen.storyboard */; };
-		48AA2383273C56F100AB04A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48AA2382273C56F100AB04A2 /* GoogleService-Info.plist */; };
+		48E5F961273C86DE0027CF97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48E5F960273C86DE0027CF97 /* GoogleService-Info.plist */; };
 		787CACED270EF4BB003184E3 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787CACDA270EF4BA003184E3 /* Montserrat-BlackItalic.ttf */; };
 		787CACEE270EF4BB003184E3 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787CACDB270EF4BA003184E3 /* Montserrat-ExtraBold.ttf */; };
 		787CACEF270EF4BB003184E3 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 787CACDC270EF4BB003184E3 /* Montserrat-ExtraLight.ttf */; };
@@ -51,7 +51,7 @@
 		4841CC242707B5F10031687F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4841CC272707B5F10031687F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4841CC292707B5F10031687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48AA2382273C56F100AB04A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48E5F960273C86DE0027CF97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		787CACDA270EF4BA003184E3 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
 		787CACDB270EF4BA003184E3 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		787CACDC270EF4BB003184E3 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
@@ -107,7 +107,6 @@
 		4841CC1A2707B5EE0031687F /* app-ios */ = {
 			isa = PBXGroup;
 			children = (
-				48AA236A273C348A00AB04A2 /* Entities */,
 				48F10807270E540500CD7BD1 /* fonts */,
 				4841CC1B2707B5EE0031687F /* AppDelegate.swift */,
 				4841CC1D2707B5EE0031687F /* SceneDelegate.swift */,
@@ -115,19 +114,12 @@
 				4841CC242707B5F10031687F /* Assets.xcassets */,
 				4841CC262707B5F10031687F /* LaunchScreen.storyboard */,
 				4841CC292707B5F10031687F /* Info.plist */,
-				48AA2382273C56F100AB04A2 /* GoogleService-Info.plist */,
+				48E5F960273C86DE0027CF97 /* GoogleService-Info.plist */,
 				4804D481270E947000339AFB /* RegisterViewController.swift */,
 				4804D484270E952F00339AFB /* LoginViewController.swift */,
 				4804D488270E988300339AFB /* RecoverViewController.swift */,
 			);
 			path = "app-ios";
-			sourceTree = "<group>";
-		};
-		48AA236A273C348A00AB04A2 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
 			sourceTree = "<group>";
 		};
 		48F10807270E540500CD7BD1 /* fonts */ = {
@@ -251,7 +243,7 @@
 				4841CC282707B5F10031687F /* LaunchScreen.storyboard in Resources */,
 				787CACED270EF4BB003184E3 /* Montserrat-BlackItalic.ttf in Resources */,
 				787CACF3270EF4BB003184E3 /* Montserrat-ExtraLightItalic.ttf in Resources */,
-				48AA2383273C56F100AB04A2 /* GoogleService-Info.plist in Resources */,
+				48E5F961273C86DE0027CF97 /* GoogleService-Info.plist in Resources */,
 				787CACF7270EF4BB003184E3 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
 				4841CC252707B5F10031687F /* Assets.xcassets in Resources */,
 				4841CC232707B5EE0031687F /* Main.storyboard in Resources */,
